@@ -208,4 +208,37 @@ nav ul{
     color: #B3B3B3;
     margin: 0px;
 }
+/* focus section */
+.focus{
+    background-color: #ffffff ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-left: 151px;
+    margin-right: 149px;
+    margin-bottom: 92.23px;
+}
+.focus-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.focus-description{
+    color: #928f8f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button-container1{
+    margin-top: 40px;
+    gap: 10px;
+    display: flex;
+    justify-content:center;
+}
+.focus-section-pic{
+    margin-top: 20px;
+    border-radius: 48px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
