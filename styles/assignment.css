@@ -240,5 +240,55 @@ nav ul{
     margin-left: auto;
     margin-right: auto;
 }
+/* get-section */
+.get{
+    padding: 80px 0;
+}
+.get-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.get-title{
+    font-size: 97px;
+    font-weight: bold;
+    flex: 1;
+}
+.get-container{
+    flex: 1;
+    min-width: 400px;
+    padding: 32px;
+    border-radius: 10px;
+}
+.get-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.form-label{
+    text-align:left;
+    font-size: 18px;
+    font-weight:bold;
+}
+.get-container input[type="text"],
+.get-container textarea{
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px #D6DDED;
+}
+.get-container textarea {
+    resize: vertical;
+    min-height: 120px;
+}
 
 
